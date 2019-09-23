@@ -2344,6 +2344,12 @@
           </li>
         </ul>
       </section>
+      <section>
+        <p class="warning">
+          This widget may not be have support gaps that can only be filled by the development of new technologies. Likewise, it may be poorly supported by certain browsers or assistive technologies. For information on that, please refer to the forthcoming ARIA-AT Project. Authors should fully  before using them for a production ready project 
+        </p>
+      </section>
+
     </section>
 
     <section class="widget" id="slidertwothumb">
@@ -3742,7 +3748,7 @@
          For example, a switch button named <q>Mute Conversation</q> in the <q>off</q> state could be announced as <q>Mute Conversation switch button off</q>.
         Because descriptions are optional strings that are usually significantly longer than names, they are presented last, sometimes after a slight delay.
         For example, <q>Mute Conversation Switch button off, Silences alerts and notifications about activity in this conversation.</q>
-        To reduce verbosity, some screen readers do not announce descriptions by default but instead inform users of their presence so that users can press a key that will announce the description. 
+        To reduce verbosity, some screen readers do not announce descriptions by default but instead inform users of their presence so that users can press a key that will announce the description.
       </p>
     </section>
 
@@ -4074,7 +4080,7 @@ However, most authors do not need such detailed understanding of the algorithms 
 &lt;/figure></code></pre>
           <p>
             Like with <code>table</code> elements, if a <code>figure</code> is not named using <code>aria-label</code> or <code>aria-labelledby</code>, the content of the <code>figcaption</code> element will be used as the accessible name.
-            However unlike <code>table</code> elements, if the <code>figcaption</code> element is not used for the name, it does not become an accessible description unless it is referenced by <code>aria-describedby</code>. 
+            However unlike <code>table</code> elements, if the <code>figcaption</code> element is not used for the name, it does not become an accessible description unless it is referenced by <code>aria-describedby</code>.
             Nevertheless, assistive technologies will render the content of a <code>figcaption</code> regardless of whether it is used as a name, description, or neither.
           </p>
           <p>Using the <code>caption</code> element to name a <code>table</code> element, or a <code>figcaption</code> element to name a <code>figure</code> element, satisfies <a href="#naming_rule_visible_text">Rule 2: Prefer Visible Text</a> and <a href="#naming_rule_native_techniques">Rule 3: Prefer Native Techniques</a>.</p>
